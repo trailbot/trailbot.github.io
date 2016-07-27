@@ -193,6 +193,10 @@ html,body {
 	text-align: left;
 }
 
+.features .sec {
+	top: 0px;
+}
+
 .features .col-sm-6 h1 {
 	font-family: AvenirNextLTPro-Demi;
 	font-size: 33px;
@@ -229,6 +233,97 @@ html,body {
 	padding-left: 10px;
 }
 
+.features h3 {
+	font-family: AvenirNextLTPro-Regular;
+	font-size: 16px;
+	color: rgba(85, 85, 85, 0.7);
+	top: 110px;
+	width: 800px;
+	text-align: center;
+	margin: auto;
+	line-height: 1.5;
+}
+
+.features .bg-color {
+	background-color: #f6f6f6;
+}
+
+.features .distance {
+	margin-bottom: 90px;
+}
+
+.features .col-lg-6 .box-policies {
+	width: 520.4px;
+	height: 153px;
+	border-radius: 3.5px;
+	background-color: #fff;
+	border: solid 0.5px rgba(51, 73, 94, 0.26);
+	margin-top: 12px;
+}
+
+
+/**/
+
+.footer {
+	width: 100%;
+	height: auto;
+	background-color: #34495e;
+}
+
+.footer img {
+	margin-top: 80px;
+}
+
+.footer .col-sm-6 p {
+	font-family: AvenirNextLTPro-Regular;
+	font-size: 16px;
+	width: 300px;
+	line-height: 30px;
+	color: #fff;
+	text-align: left;
+	padding-top: 30px;
+}
+
+.footer .btn-default {
+    color: #fff;
+    border: none;
+    width: auto;
+	height: 44px;
+	border-radius: 50px;
+	background-color: #f37e83;
+	padding-right: 30px;
+	padding-left: 30px;
+	display: block;
+	margin-top: 22px;
+}
+
+.footer .btn-default .fa-github {
+	padding-right: 10px;
+}
+
+.footer ul {
+	list-style-type: none;
+	color: #fff;
+	text-align: left;
+	padding-bottom: 10px;
+}
+
+.footer ul li {
+	color: #fff;
+	padding-top: 0px;
+}
+
+.footer-logo {
+	width: 249px;
+	height: 24.3px;
+	margin: auto;
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+.footer-logo img {
+	margin: 0px;
+}
 
 @media all and (max-width: 876px) and (min-width: 300px) {
 		.home .img-align {
@@ -256,5 +351,49 @@ html,body {
 
 		.home p {
 			width: 300px;
+		}
+
+		/**/
+
+		.features h1 {
+		    font-size: 80px;
+		}
+
+		.features h2 {
+			top: -130px;
+		}
+
+		.features .col-sm-6 .box-img {
+			width: 300px;
+			height: 300px;
+			background-color: #ddd;
+			display: none;
+		}
+
+		.features .col-sm-6 h2 {
+			font-family: AvenirNextLTPro-Regular;
+			font-size: 16px;
+			color: rgba(85, 85, 85, 0.7);
+			top: 20px;
+			text-align: left;
+		}
+
+		.features .col-sm-6 h1 {
+			font-family: AvenirNextLTPro-Demi;
+			font-size: 33px;
+			color: #636363;
+			top: 30px;
+			text-align: left;
+			padding-top: 0px;
+		}
+
+		.features .col-sm-6 p {
+			font-family: AvenirNextLTPro-Regular;
+			font-size: 16px;
+			width: 280px;
+			line-height: 30px;
+			color: rgba(85, 85, 85, 0.7);
+			text-align: left;
+			padding-top: 50px;
 		}
 	}
