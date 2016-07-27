@@ -23,9 +23,6 @@ html,body {
 	height: 100%;
 }
 
-.col-lg-6 {
-	padding: 0px !important;
-}
 
 @font-face {
     font-family: 'AvenirNextLTPro-Bold';
@@ -273,7 +270,7 @@ html,body {
 	padding-top: 60px;
 }
 
-.features .box-policies .col-sm-5 h1 {
+.features .box-policies .col-sm-7 h1 {
 	font-family: AvenirNextLTPro-Demi;
 	font-size: 20px;
 	font-weight: normal;
@@ -284,7 +281,7 @@ html,body {
 	text-align: left;
 }
 
-.features .box-policies .col-sm-5 p {
+.features .box-policies .col-sm-7 p {
 	font-family: AvenirNextLTPro-Regular;
 	font-size: 14px;
 	font-weight: normal;
@@ -295,7 +292,7 @@ html,body {
 	color: #888888;
 }
 
-.features .box-policies .col-sm-3 img {
+.features .box-policies .col-sm-2 img {
 	margin-top: 6px;
 }
 
@@ -351,6 +348,22 @@ html,body {
 	padding-top: 0px;
 }
 
+.footer ul li a {
+	color: #fff;
+	padding-top: 0px;
+	font-size: 16px;
+	line-height: 30px;
+	color: rgba(255, 255, 255, 0.72);
+	font-family: AvenirNextLTPro-Regular;
+}
+
+.footer ul .title {
+	font-family: AvenirNextLTPro-Demi;
+	letter-spacing: 4px;
+	font-size: 18px;
+	padding-top: 100px;
+}
+
 .footer-logo {
 	width: 249px;
 	height: 24.3px;
@@ -366,6 +379,12 @@ html,body {
 @media all and (max-width: 876px) and (min-width: 300px) {
 		.home .img-align {
 			display: none;
+		}
+
+
+
+		.col-lg-6 {
+			padding: 0px !important;
 		}
 
 		.container-fluid {
@@ -443,11 +462,41 @@ html,body {
 			margin: auto;
 		}
 
+
+		.features .box-policies .col-sm-7 h1 {
+			font-family: AvenirNextLTPro-Demi;
+			font-size: 20px;
+			font-weight: normal;
+			text-align: justify;
+			color: #616161;
+			padding: 0px;
+			top: 27px;
+			text-align: center;
+		}
+
+		.features .box-policies .col-sm-7 p {
+			font-family: AvenirNextLTPro-Regular;
+			font-size: 14px;
+			font-weight: normal;
+			padding-top: 17px;
+			top: 0px;
+			text-align: center;
+			color: #888888;
+		}
+
+		.features .col-lg-6 .box-policies img {
+			padding-top: 30px;
+		}
+
+		.features .col-lg-6 .box-policies .arrow {
+			display: none;
+		}
+
 		/**/
 
 		.features .col-lg-6 .box-policies {
 			width: 300px;
-			height: 153px;
+			height: 200px;
 			border-radius: 3.5px;
 			background-color: #fff;
 			border: solid 0.5px rgba(51, 73, 94, 0.26);
@@ -479,5 +528,38 @@ html,body {
 			margin: auto;
 			margin-top: 30px;
 			margin-bottom: 30px;
+		}
+
+		.footer .col-sm-6 {
+			padding: 0px;
+		}
+
+		.footer ul {
+			padding-left: 0px !important;
+		}
+
+		.footer ul li {
+			color: #fff;
+			padding-top: 0px;
+		}
+
+		.footer ul li a {
+			color: #fff;
+			padding-top: 0px;
+			font-size: 16px;
+			line-height: 30px;
+			color: rgba(255, 255, 255, 0.72);
+			font-family: AvenirNextLTPro-Regular;
+		}
+
+		.footer ul .title {
+			font-family: AvenirNextLTPro-Demi;
+			letter-spacing: 4px;
+			font-size: 18px;
+			padding-top: 100px;
+		}
+
+		.footer .separator {
+			margin-top: 100px !important;
 		}
 	}
