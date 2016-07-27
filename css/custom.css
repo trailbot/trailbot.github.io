@@ -23,6 +23,10 @@ html,body {
 	height: 100%;
 }
 
+.col-lg-6 {
+	padding: 0px !important;
+}
+
 @font-face {
     font-family: 'AvenirNextLTPro-Bold';
     src: url('../fonts/AvenirNextLTPro-Bold.otf');
@@ -252,6 +256,10 @@ html,body {
 	margin-bottom: 90px;
 }
 
+.features .col-lg-6 {
+	text-align: center;
+}
+
 .features .col-lg-6 .box-policies {
 	width: 520.4px;
 	height: 153px;
@@ -259,6 +267,36 @@ html,body {
 	background-color: #fff;
 	border: solid 0.5px rgba(51, 73, 94, 0.26);
 	margin-top: 12px;
+}
+
+.features .col-lg-6 .box-policies img {
+	padding-top: 60px;
+}
+
+.features .box-policies .col-sm-5 h1 {
+	font-family: AvenirNextLTPro-Demi;
+	font-size: 20px;
+	font-weight: normal;
+	text-align: justify;
+	color: #616161;
+	padding: 0px;
+	top: 27px;
+	text-align: left;
+}
+
+.features .box-policies .col-sm-5 p {
+	font-family: AvenirNextLTPro-Regular;
+	font-size: 14px;
+	font-weight: normal;
+	padding-top: 17px;
+	top: 0px;
+	text-align: left;
+	text-align: justify;
+	color: #888888;
+}
+
+.features .box-policies .col-sm-3 img {
+	margin-top: 6px;
 }
 
 
@@ -305,7 +343,7 @@ html,body {
 	list-style-type: none;
 	color: #fff;
 	text-align: left;
-	padding-bottom: 10px;
+	padding-bottom: 20px;
 }
 
 .footer ul li {
@@ -395,5 +433,51 @@ html,body {
 			color: rgba(85, 85, 85, 0.7);
 			text-align: left;
 			padding-top: 50px;
+		}
+
+
+		.features .distance {
+			margin-bottom: 90px;
+			font-size: 12px;
+			width: 300px;
+			margin: auto;
+		}
+
+		/**/
+
+		.features .col-lg-6 .box-policies {
+			width: 300px;
+			height: 153px;
+			border-radius: 3.5px;
+			background-color: #fff;
+			border: solid 0.5px rgba(51, 73, 94, 0.26);
+			margin-top: 12px;
+		}
+
+		.features .bg-color .container-fluid {
+		    padding-right: 10px !important;
+		    padding-left: 10px !important;
+		    margin-right: auto;
+		    margin-left: auto;
+		}
+
+		/**/
+
+		.footer .col-sm-6 p {
+			font-family: AvenirNextLTPro-Regular;
+			font-size: 16px;
+			width: 280px;
+			line-height: 30px;
+			color: #fff;
+			text-align: left;
+			padding-top: 30px;
+		}
+
+		.footer-logo {
+			width: 200px;
+			height: 24px;
+			margin: auto;
+			margin-top: 30px;
+			margin-bottom: 30px;
 		}
 	}
