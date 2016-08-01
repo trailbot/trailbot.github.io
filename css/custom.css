@@ -277,10 +277,9 @@ html,body {
 	font-family: AvenirNextLTPro-Demi;
 	font-size: 20px;
 	font-weight: normal;
-	text-align: justify;
 	color: #616161;
 	padding: 0px;
-	top: 26px;
+	top: 28px;
 	text-align: left;
 }
 
@@ -288,7 +287,7 @@ html,body {
 	font-family: AvenirNextLTPro-Regular;
 	font-size: 14px;
 	font-weight: normal;
-	padding-top: 24px;
+	padding-top: 26px;
 	top: 0px;
 	text-align: left;
 	color: #888888;
