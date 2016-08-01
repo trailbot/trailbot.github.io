@@ -157,6 +157,10 @@ html,body {
     text-decoration: none;
 }
 
+.btn-default a:hover {
+	text-decoration: none;
+}
+
 .home .btn-default .fa-github {
 	padding-right: 10px;
 }
