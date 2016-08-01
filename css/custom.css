@@ -147,12 +147,13 @@ html,body {
 	display: block;
 	margin: auto;
 	margin-top: 22px;
+	text-decoration: none;
 }
 
 .btn-default:hover {
     color: #fff !important;
     background-color: #f37e83 !important;
-    border: none;
+    border: none !important;
     text-decoration: none;
 }
 
