@@ -23,6 +23,10 @@ html,body {
 	height: 100%;
 }
 
+a:hover {
+	text-decoration: none;
+}
+
 
 @font-face {
     font-family: 'AvenirNextLTPro-Bold';
