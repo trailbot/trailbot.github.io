@@ -153,6 +153,7 @@ html,body {
     color: #fff !important;
     background-color: #f37e83 !important;
     border: none;
+    text-decoration: none;
 }
 
 .home .btn-default .fa-github {
