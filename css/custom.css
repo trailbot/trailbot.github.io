@@ -157,7 +157,7 @@ html,body {
     text-decoration: none;
 }
 
-.btn-default:hover a {
+.home a:hover {
 	text-decoration: none;
 }
 
