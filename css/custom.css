@@ -157,7 +157,7 @@ html,body {
     text-decoration: none;
 }
 
-a:hover {
+.home a:hover {
 	text-decoration: none;
 }
 
@@ -382,6 +382,10 @@ a:hover {
 
 .footer-logo img {
 	margin: 0px;
+}
+
+.footer a:hover {
+	text-decoration: none;
 }
 
 
