@@ -279,48 +279,50 @@ a:hover {
 	cursor: pointer;
 }
 
-.ribbon {
- font-size: 16px !important;
- width: 100px;
-    
- position: relative;
- background: #f37e83;
- color: #fff;
- text-align: center;
- padding: 1em 0px; /* Adjust to suit */
- margin: 2em auto 3em; /* Based on 24px vertical rhythm. 48px bottom margin - normally 24 but the ribbon 'graphics' take up 24px themselves so we double it. */
+.ribbon-wrapper-green {
+  width: 85px;
+  height: 88px;
+  overflow: hidden;
+  position: absolute;
+  top: -3px;
+  right: -3px;
 }
-.ribbon:after {
-	right: 100%;
-	border: solid transparent;
-	content: " ";
-	height: 0;
-	width: 0;
-	position: absolute;
-	pointer-events: none;
+.ribbon-green {
+  font: bold 15px Sans-Serif;
+  color: #333;
+  text-align: center;
+  text-shadow: rgba(255,255,255,0.5) 0px 1px 0px;
+  -webkit-transform: rotate(45deg);
+  -moz-transform:    rotate(45deg);
+  -ms-transform:     rotate(45deg);
+  -o-transform:      rotate(45deg);
+  position: relative;
+  padding: 7px 0;
+  left: -5px;
+  top: 15px;
+  width: 120px;
+  background-color: #BFDC7A;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#BFDC7A), to(#8EBF45)); 
+  background-image: -webkit-linear-gradient(top, #BFDC7A, #8EBF45); 
+  background-image:    -moz-linear-gradient(top, #BFDC7A, #8EBF45); 
+  background-image:     -ms-linear-gradient(top, #BFDC7A, #8EBF45); 
+  background-image:      -o-linear-gradient(top, #BFDC7A, #8EBF45); 
+  color: #6a6340;
+  box-shadow:         0px 0px 3px rgba(0,0,0,0.3);
 }
-
-.ribbon:after {
-	border-color: rgba(136, 183, 213, 0);
-	border-right-color: #f37e83;
-	border-width: 25px;
-	top: 50%;
-	margin-top: -25px;
+.ribbon-green:before, .ribbon-green:after {
+  content: "";
+  border-top:   3px solid #6e8900;   
+  border-left:  3px solid transparent;
+  border-right: 3px solid transparent;
+  position:absolute;
+  bottom: -3px;
 }
-.ribbon .ribbon-content:after {
- content: "";
- position: absolute;
- display: block;
- border-style: solid;
- border-color: #999 transparent transparent transparent;
- bottom: -10px;
+.ribbon-green:before {
+  left: 0;
 }
-.ribbon .ribbon-content:after {
- right: 0;
- border-width: 10px 10px 0 0;
-}
-.features .col-lg-6 .box-policies img {
-	padding-top: 60px;
+.ribbon-green:after {
+  right: 0;
 }
 
 .features .box-policies .col-sm-6 h1 {
