@@ -279,28 +279,11 @@ a:hover {
 	cursor: pointer;
 }
 
-.cr {
-  width: 200px;
-  padding: 16px;
-  position: absolute;
-  text-align: center;
-  color: #f0f0f0;
+.ribbon {
+	width: 200px;
+	height: 30px;
+	background: #f37e83;
 }
-
-.cr-sticky {
-  position: fixed;
-}
-
-/* Positions */
-
-.cr-top    { top: 25px; }
-.cr-right  { right: -50px; }
-
-.cr-top.cr-right {
-  transform: rotate(45deg);
-}
-
-.cr-blue { background-color: #39d; }
 
 
 .features .box-policies .col-sm-6 h1 {
