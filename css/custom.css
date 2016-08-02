@@ -279,6 +279,12 @@ a:hover {
 	cursor: pointer;
 }
 
+.features .col-lg-6 .box-policies .ribbon {
+	width: 100px;
+	height: 30px;
+	background: #f37e83;
+}
+
 .features .col-lg-6 .box-policies img {
 	padding-top: 60px;
 }
