@@ -279,14 +279,23 @@ a:hover {
 	cursor: pointer;
 }
 
+.features .box-policies .col-sm-3 {
+	padding-right: 0px;
+}
+
 .ribbon {
 	width: 100%;
-	height: 30px;
+	height: auto;
 	background: #f37e83;
 	color: #fff;
 	text-transform: uppercase;
-	letter-spacing: 5px;
-	font-size: 15px;
+	letter-spacing: 2px;
+	font-size: 14px;
+	padding: 0px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	margin-top: 10px;
+	border-radius: 30px 0 0 30px;
 }
 
 
@@ -526,11 +535,32 @@ a:hover {
 
 		.features .col-lg-6 .box-policies {
 			width: 300px;
-			height: 200px;
+			height: 220px;
 			border-radius: 3.5px;
 			background-color: #fff;
 			border: solid 0.5px rgba(51, 73, 94, 0.26);
 			margin-top: 12px;
+		}
+
+		.features .box-policies .col-sm-3 {
+			padding-right: 0px;
+		}
+
+		.ribbon {
+			width: 70%;
+			height: auto;
+			background: #f37e83;
+			color: #fff;
+			text-transform: uppercase;
+			letter-spacing: 2px;
+			font-size: 14px;
+			padding: 0px;
+			padding-top: 5px;
+			padding-bottom: 5px;
+			margin-top: 2px;
+			border-radius: 30px 0 0 30px;
+			position: absolute;
+			right: 0px;
 		}
 
 		.features .bg-color .container-fluid {
