@@ -24,7 +24,7 @@ html,body {
 }
 
 a:hover {
-	text-decoration: none;
+	text-decoration: none !important;
 }
 
 
@@ -279,51 +279,29 @@ a:hover {
 	cursor: pointer;
 }
 
-.ribbon-wrapper-green {
-  width: 85px;
-  height: 88px;
-  overflow: hidden;
+.cr {
+  width: 200px;
+  padding: 16px;
   position: absolute;
-  top: -3px;
-  right: -3px;
+  text-align: center;
+  color: #f0f0f0;
 }
-.ribbon-green {
-    font: bold 13px Sans-Serif;
-    color: #fff;
-    text-align: center;
-    /* text-shadow: rgba(255,255,255,0.5) 0px 1px 0px; */
-    -webkit-transform: rotate(45deg);
-    -moz-transform: rotate(45deg);
-    -ms-transform: rotate(45deg);
-    -o-transform: rotate(45deg);
-    position: relative;
-    padding: 7px 0;
-    left: 27px;
-    top: 13px;
-    width: 120px;
-    background-color: #f37e83;
-    background-image: #f37e83;
-    /* background-image: -webkit-linear-gradient(top, #BFDC7A, #8EBF45); */
-    background-image: -moz-linear-gradient(top, #BFDC7A, #8EBF45);
-    background-image: -ms-linear-gradient(top, #BFDC7A, #8EBF45);
-    background-image: -o-linear-gradient(top, #BFDC7A, #8EBF45);
-    color: ffffffff;
-    box-shadow: 0px 0px 3px rgba(0,0,0,0.3);
+
+.cr-sticky {
+  position: fixed;
 }
-.ribbon-green:before, .ribbon-green:after {
-  content: "";
-  border-top:   3px solid #6e8900;   
-  border-left:  3px solid transparent;
-  border-right: 3px solid transparent;
-  position:absolute;
-  bottom: -3px;
+
+/* Positions */
+
+.cr-top    { top: 25px; }
+.cr-right  { right: -50px; }
+
+.cr-top.cr-right {
+  transform: rotate(45deg);
 }
-.ribbon-green:before {
-  left: 0;
-}
-.ribbon-green:after {
-  right: 0;
-}
+
+.cr-blue { background-color: #39d; }
+
 
 .features .box-policies .col-sm-6 h1 {
 	font-family: AvenirNextLTPro-Demi;
