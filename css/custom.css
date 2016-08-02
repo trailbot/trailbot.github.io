@@ -280,9 +280,13 @@ a:hover {
 }
 
 .ribbon {
-	width: 200px;
+	width: 100%;
 	height: 30px;
 	background: #f37e83;
+	color: #fff;
+	text-transform: uppercase;
+	letter-spacing: 5px;
+	font-size: 15px;
 }
 
 
