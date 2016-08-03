@@ -270,7 +270,7 @@ a:hover {
 
 .features .col-lg-6 .box-policies {
 	width: 520.4px;
-	height: 144px;
+	height: 180px;
 	margin: auto;
 	border-radius: 3.5px;
 	background-color: #fff;
@@ -309,6 +309,16 @@ a:hover {
 	text-align: left;
 }
 
+.features .box-policies .col-sm-6 h2 {
+	font-family: AvenirNextLTPro-Bold;
+	font-size: 17px;
+	font-weight: normal;
+	color: #616161;
+	padding: 0px;
+	top: 0px;
+	text-align: left;
+}
+
 .features .box-policies .col-sm-6 p {
 	font-family: AvenirNextLTPro-Regular;
 	font-size: 14px;
@@ -325,7 +335,7 @@ a:hover {
 }
 
 .features .col-lg-6 .box-policies img {
-	padding-top: 60px;
+	padding-top: 77px;
 	}
 
 
