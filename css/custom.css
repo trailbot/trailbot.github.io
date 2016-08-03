@@ -270,7 +270,7 @@ a:hover {
 
 .features .col-lg-6 .box-policies {
 	width: 520.4px;
-	height: 180px;
+	height: 144px;
 	margin: auto;
 	border-radius: 3.5px;
 	background-color: #fff;
@@ -309,14 +309,37 @@ a:hover {
 	text-align: left;
 }
 
-.features .box-policies .col-sm-6 h2 {
+.features .ctatext {
+	width: 386.5px;
+	height: auto;
+	margin: auto;
+	margin-top: 44px;
+}
+
+.features h2 {
 	font-family: AvenirNextLTPro-Bold;
 	font-size: 17px;
 	font-weight: normal;
 	color: #616161;
 	padding: 0px;
-	top: 0px;
-	text-align: left;
+	top: 28px;
+	text-align: center;
+	display: inline-table;
+}
+
+.features .btn-default {
+    color: #fff;
+    border: none;
+    width: auto;
+	height: 44px;
+	border-radius: 50px;
+	background-color: #f37e83;
+	padding-right: 30px;
+	padding-left: 30px;
+	display: block;
+	margin-top: 54px;
+	margin-left: 20px;
+	display: inline-table;
 }
 
 .features .box-policies .col-sm-6 p {
@@ -335,7 +358,7 @@ a:hover {
 }
 
 .features .col-lg-6 .box-policies img {
-	padding-top: 77px;
+	padding-top: 60px;
 	}
 
 
