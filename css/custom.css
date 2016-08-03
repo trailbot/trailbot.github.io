@@ -309,6 +309,39 @@ a:hover {
 	text-align: left;
 }
 
+.features .ctatext {
+	width: 540.86px;
+	height: auto;
+	margin: auto;
+	margin-top: 44px;
+}
+
+.features .ctatext h2 {
+	font-family: AvenirNextLTPro-Bold;
+	font-size: 17px;
+	font-weight: normal;
+	color: #616161;
+	padding: 0px;
+	top: 28px;
+	text-align: center;
+	display: inline-table;
+}
+
+.features .ctatext .btn-default {
+    color: #fff;
+    border: none;
+    width: auto;
+	height: 44px;
+	border-radius: 50px;
+	background-color: #f37e83;
+	padding-right: 30px;
+	padding-left: 30px;
+	display: block;
+	margin-top: 54px;
+	margin-left: 20px;
+	display: inline-table;
+}
+
 .features .box-policies .col-sm-6 p {
 	font-family: AvenirNextLTPro-Regular;
 	font-size: 14px;
@@ -568,6 +601,41 @@ a:hover {
 		    padding-left: 10px !important;
 		    margin-right: auto;
 		    margin-left: auto;
+		}
+
+
+		/**/
+
+		.features .ctatext {
+			width: auto;
+			height: auto;
+			margin: auto;
+			margin-top: 44px;
+		}
+
+		.features .ctatext h2 {
+			font-family: AvenirNextLTPro-Bold;
+			font-size: 17px;
+			font-weight: normal;
+			color: #616161;
+			padding: 0px;
+			top: 44px;
+			width: 100%;
+			text-align: left;
+			line-height: 28px;
+		}
+
+		.features .ctatext .btn-default {
+		    color: #fff;
+		    border: none;
+		    width: auto;
+			height: 44px;
+			border-radius: 50px;
+			background-color: #f37e83;
+			padding-right: 30px;
+			padding-left: 30px;
+			display: block;
+			margin-left: 0px !important;
 		}
 
 		/**/
