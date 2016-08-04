@@ -447,6 +447,31 @@ a:hover {
 	text-decoration: none;
 }
 
+@media all and (max-width: 900px) and (min-width: 767px) {
+	.features .box-policies .col-sm-6 h1 {
+		    text-align: left !important;
+		}
+
+		.features .box-policies .col-sm-6 p {
+		    text-align: left !important;
+}
+
+		.ribbon {
+			width: 100%;
+			height: auto;
+			background: #f37e83;
+			color: #fff;
+			text-transform: uppercase;
+			letter-spacing: 2px;
+			font-size: 14px;
+			padding: 0px;
+			padding-top: 5px;
+			padding-bottom: 5px;
+			margin-top: 10px;
+			border-radius: 30px 0 0 30px;
+		}
+
+}
 
 
 
@@ -712,6 +737,7 @@ a:hover {
 			margin-top: 100px !important;
 		}
 	}
+
 
 
 
