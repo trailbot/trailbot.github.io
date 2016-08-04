@@ -188,6 +188,8 @@ a:hover {
 	color: #636363;
 	position: relative;
 	top: -120px;
+	width: 70%;
+	margin: auto;
 }
 
 .features .col-sm-6 .box-img {
@@ -246,9 +248,9 @@ a:hover {
 
 .features h3 {
 	font-family: AvenirNextLTPro-Regular;
-	font-size: 16px;
+	font-size: 19px;
 	color: rgba(85, 85, 85, 0.7);
-	top: 110px;
+	padding-top: 15px;
 	width: 800px;
 	text-align: center;
 	margin: auto;
@@ -260,13 +262,24 @@ a:hover {
 }
 
 .features .distance {
-	margin-bottom: 90px;
+	margin-bottom: 60px;
 }
 
 .features .col-lg-6 {
 	text-align: center;
 	padding: 0px;
 }
+
+
+.features a:hover .box-policies{
+	/* Rectangle: */
+	box-shadow: 0px 2px 40px 0px rgba(0,0,0,0.08);
+	transition: 0.1s;
+	-mz-transition: 0.1s;
+	-webkit-transition: 0.1s;
+	-o-transition: 0.1s;
+}
+
 
 .features .col-lg-6 .box-policies {
 	width: 520.4px;
@@ -305,7 +318,7 @@ a:hover {
 	font-weight: normal;
 	color: #616161;
 	padding: 0px;
-	top: 28px;
+	top: 35px;
 	text-align: left;
 }
 
@@ -341,6 +354,7 @@ a:hover {
 	margin-top: 54px;
 	margin-left: 20px;
 	display: inline-table;
+	cursor: pointer;
 }
 
 .features .box-policies .col-sm-6 p {
@@ -361,7 +375,70 @@ a:hover {
 
 .features .col-lg-6 .box-policies img {
 	padding-top: 60px;
+}
+
+.features .col-lg-12 {
+	text-align: center;
+}
+
+.features .col-lg-12 .box-policies {
+	width: 98.35%;
+	height: 144px;
+	margin: auto;
+	border-radius: 3.5px;
+	background-color: #fff;
+	border: solid 0.5px rgba(51, 73, 94, 0.26);
+	margin-top: 12px;
+	cursor: pointer;
+}
+
+.features .col-lg-12 .box-policies h1 {
+	font-family: AvenirNextLTPro-Demi;
+	font-size: 20px !important;
+	font-weight: normal;
+	color: #616161;
+	padding: 0px;
+	text-align: left;
+	margin-top: 52px !important;
+	margin-bottom: 0px;
+}
+
+
+.features .col-lg-12 .box-policies p {
+	font-family: AvenirNextLTPro-Regular;
+	font-size: 14px;
+	font-weight: normal;
+	padding-top: 2px;
+	top: 0px;
+	text-align: left;
+	color: #888888;
+	line-height: 20px;
+	width: 100%;
 	}
+
+.features .col-lg-12 .box-policies .btn-default {
+    color: #fff;
+    border: none;
+    width: auto;
+	height: 44px;
+	border-radius: 50px;
+	background-color: #f37e83;
+	padding-right: 30px;
+	padding-left: 30px;
+	display: block;
+	margin-top: 48px;
+	margin-left: 20px;
+	cursor: pointer;
+}
+
+.features .col-lg-12 .box-policies img {
+	margin-top: 6px;
+}
+
+.features .col-lg-12 .box-policies img {
+	padding-top: 53px;
+}
+
 
 
 /**/
@@ -682,6 +759,63 @@ a:hover {
 			padding-left: 30px;
 			display: inline;
 			margin-left: 0px !important;
+		}
+
+		.features .col-lg-12 .box-policies {
+			width: 98.35%;
+			height: 330px;
+			margin: auto;
+			border-radius: 3.5px;
+			background-color: #fff;
+			border: solid 0.5px rgba(51, 73, 94, 0.26);
+			margin-top: 12px;
+			cursor: pointer;
+		}
+
+		.features .col-lg-12 .box-policies h1 {
+			font-family: AvenirNextLTPro-Demi;
+			font-size: 20px !important;
+			font-weight: normal;
+			color: #616161;
+			padding: 0px;
+			text-align: center;
+			margin-bottom: 0px;
+		}
+
+
+		.features .col-lg-12 .box-policies p {
+			font-family: AvenirNextLTPro-Regular;
+			font-size: 14px;
+			font-weight: normal;
+			padding-top: 30px;
+			top: 0px;
+			text-align: center;
+			color: #888888;
+			line-height: 20px;
+			width: 100%;
+			}
+
+		.features .col-lg-12 .box-policies .btn-default {
+		    color: #fff;
+		    border: none;
+		    width: auto;
+			height: 44px;
+			border-radius: 50px;
+			background-color: #f37e83;
+			padding-right: 30px;
+			padding-left: 30px;
+			display: inline;
+			margin-top: 15px;
+			margin-left: 0px !important;
+			cursor: pointer;
+		}
+
+		.features .col-lg-12 .box-policies img {
+			margin-top: 6px;
+		}
+
+		.features .col-lg-12 .box-policies img {
+			padding-top: 53px;
 		}
 
 		/**/
