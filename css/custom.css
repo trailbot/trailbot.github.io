@@ -379,8 +379,9 @@ a:hover {
 }
 
 .features .col-lg-12 {
-	text-align: center;
-	padding: 10px;
+    text-align: center;
+    padding-right: 10px;
+    padding-left: 10px;
 }
 
 .features .col-lg-12 .box-policies {
