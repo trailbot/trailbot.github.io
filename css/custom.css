@@ -297,21 +297,6 @@ a:hover {
 	padding-right: 0px;
 }
 
-.ribbon {
-	width: 100%;
-	height: auto;
-	background: #f37e83;
-	color: #fff;
-	text-transform: uppercase;
-	letter-spacing: 2px;
-	font-size: 14px;
-	padding: 0px;
-	padding-top: 5px;
-	padding-bottom: 5px;
-	margin-top: 10px;
-	border-radius: 30px 0 0 30px;
-}
-
 
 .features .box-policies .col-sm-6 h1 {
 	font-family: AvenirNextLTPro-Demi;
