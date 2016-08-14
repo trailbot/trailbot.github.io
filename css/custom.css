@@ -573,20 +573,30 @@ a:hover {
 
   .home h1 {
   padding-top: 50px;
+  font-size: 22px;
   }
 
   .home p {
   width: 300px;
+  font-size: 18px;
   }
 
   /**/
 
+  .features {
+    padding: 0px;
+  }
+
   .features h1 {
-  font-size: 80px;
+  font-size: 50px;
+  text-align: center;
   }
 
   .features h2 {
-  top: -130px;
+  top: -110px;
+  font-size: 23px;
+  width: 90%;
+  margin: auto;
   }
 
   .features .col-sm-6 .box-img {
@@ -620,7 +630,8 @@ a:hover {
   line-height: 30px;
   color: rgba(85, 85, 85, 0.7);
   text-align: left;
-  padding-top: 50px;
+  padding-top: 30px;
+  margin-top: 0px;
   }
 
 
@@ -653,6 +664,29 @@ a:hover {
   color: #888888;
   }
 
+  .box-policies {
+  width: 300px;
+  height: 260px;
+  border-radius: 3.5px;
+  background-color: #fff;
+  border: solid 0.5px rgba(51, 73, 94, 0.26);
+  margin-top: 12px;
+  }
+
+.box-policies .col-sm-1 {
+  display: none;
+}
+
+.features .col-sm-6 .btn-default {
+  margin-bottom: 30px;
+}
+
+
+  .box-policies .col-sm-8 p  {
+    text-align: center;
+    padding-top: 10px;
+  }
+
   .features .col-lg-6 .box-policies img {
   padding-top: 30px;
   }
@@ -663,17 +697,12 @@ a:hover {
 
   /**/
 
-  .features .col-lg-6 .box-policies {
-  width: 300px;
-  height: 220px;
-  border-radius: 3.5px;
-  background-color: #fff;
-  border: solid 0.5px rgba(51, 73, 94, 0.26);
-  margin-top: 12px;
-  }
+  
 
   .box-policies .col-sm-3 {
+    width: 100%;
   padding-right: 0px;
+  text-align: center;
   }
 
   .box-policies .col-sm-6 h1 {
@@ -712,7 +741,7 @@ a:hover {
   margin: auto;
   }
 
-  .features .bg-color .container-fluid {
+  .policies .bg-color .container-fluid {
   padding-right: 10px !important;
   padding-left: 10px !important;
   margin-right: auto;
@@ -722,14 +751,14 @@ a:hover {
 
   /**/
 
-  .features .ctatext {
+.policies .ctatext {
   width: auto;
   height: auto;
   margin: auto;
   margin-top: 44px;
   }
 
-  .features .ctatext h2 {
+.policies .ctatext h2 {
   font-family: AvenirNextLTPro-Bold;
   font-size: 17px;
   font-weight: normal;
@@ -741,7 +770,7 @@ a:hover {
   line-height: 28px;
   }
 
-  .features .ctatext .btn-default {
+.policies .ctatext .btn-default {
   color: #fff;
   border: none;
   width: auto;
@@ -754,7 +783,7 @@ a:hover {
   margin-left: 0px !important;
   }
 
-  .features .col-lg-12 .box-policies {
+  .policies .col-lg-12 .box-policies {
   width: 98.35%;
   height: 330px;
   margin: auto;
@@ -803,12 +832,16 @@ a:hover {
   cursor: pointer;
   }
 
-  .features .col-lg-12 .box-policies img {
+  .policies .col-lg-12 .box-policies img {
   margin-top: 6px;
   }
 
-  .features .col-lg-12 .box-policies img {
-  padding-top: 53px;
+  .policies .col-lg-12 .box-policies img {
+  padding-top: 0px;
+  }
+
+  .custom  .btn-default {
+    margin-top: 0px;
   }
 
   /**/
@@ -974,8 +1007,14 @@ a:hover {
   }
   }
 
+
 @media all and (max-width: 1281px) and (min-width: 1279px) {
 
+.home .img-align {
+  display: none ;
+  }
+  }
+  
 .home h1 {
   font-family: AvenirNextLTPro-Demi;
   font-size: 28px;
