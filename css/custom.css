@@ -163,10 +163,10 @@ a.button.default {
 }
 
 .home p {
-  width: 800px;
+  width: 750px;
   margin: auto;
   font-family: AvenirNextLTPro-Regular;
-  font-size: 24px;
+  font-size: 20px;
   text-align: center;
   color: rgba(255, 255, 255, 0.71);
   animation: pop 2s ease;
