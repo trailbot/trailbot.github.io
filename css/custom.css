@@ -85,11 +85,13 @@ a.button.default {
 
 
 .home {
+  position: relative;
   width: 100%;
   height: 100%;
   background: url('../img/bg.jpg');
   background-color: #34495e;
   background-size: cover;
+  overflow: hidden;
 }
 
 .overlay {
@@ -157,6 +159,7 @@ a.button.default {
   color: rgba(255, 255, 255, 0.91);
   margin-top: 60px;
   margin-bottom: 30px;
+  animation: pop 2s ease;
 }
 
 .home p {
@@ -166,6 +169,7 @@ a.button.default {
   font-size: 24px;
   text-align: center;
   color: rgba(255, 255, 255, 0.71);
+  animation: pop 2s ease;
 }
 
 .home .screen {
@@ -174,6 +178,21 @@ a.button.default {
   text-align: center;
   bottom: 0; left: 0; right: 0;
   overflow: hidden;
+  animation: pop 1s ease;
+}
+
+@keyframes pop {
+  0% {
+    opacity: 0;
+    transform: translateY(100px);
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
 
 .home .screen img {
@@ -194,6 +213,7 @@ a.button.default {
   margin-top: 40px;
   text-decoration: none;
   font-weight: bold;
+  animation: pop 2s ease;
 }
 
 .btn-default:hover {
@@ -674,6 +694,17 @@ a.button.default {
   }
 }
 
+/*HYPERVERTICAL*/
+@media all and (max-aspect-ratio: 2/3) {
+  .home {
+    height: auto;
+    padding-bottom: 100px;
+  }
+  .home .screen {
+    display: none;
+  }
+}
+
 /*HORIZONTAL*/
 @media all and (min-aspect-ratio: 1/1) {
   .home .screen {
@@ -681,3 +712,9 @@ a.button.default {
   }
 }
 
+/*HYPERHORIZONTAL*/
+@media all and (min-aspect-ratio: 25/10) {
+  .home .screen {
+    display: none;
+  }
+}
