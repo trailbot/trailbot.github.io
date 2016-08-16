@@ -181,28 +181,6 @@ a.button.default {
   animation: pop 1s ease;
 }
 
-@keyframes pop {
-  0% {
-    opacity: 0;
-    -moz-opacity: 0;
-    -khtml-opacity: 0;
-    transform: translateY(100px);
-    -moz-transform: translateY(100px);
-    -webkit-transform: translateY(100px);
-  }
-  50% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-    -moz-opacity: 1;
-    -khtml-opacity: 1;
-    transform: translateY(0);
-    -moz-transform: translateY(0);
-    -webkit-transform: translateY(0);
-  }
-}
-
 .home .screen img {
   height: 100%;
 }
@@ -630,7 +608,7 @@ a.button.default {
   #features .feature header,
   #features .feature p {
     width: 100%;
-    padding: 0 30px;
+    padding: 0 50px;
   }
 
   #features .feature img {
@@ -718,11 +696,37 @@ a.button.default {
   .home .screen {
     height: calc(100vh - 475px);
   }
+  .home .screen img {
+    max-width: 90vw;
+  }
 }
 
 /*HYPERHORIZONTAL*/
 @media all and (min-aspect-ratio: 25/10) {
   .home .screen {
     display: none;
+  }
+}
+
+
+@keyframes pop {
+  0% {
+    opacity: 0;
+    -moz-opacity: 0;
+    -khtml-opacity: 0;
+    transform: translateY(100px);
+    -moz-transform: translateY(100px);
+    -webkit-transform: translateY(100px);
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+    -moz-opacity: 1;
+    -khtml-opacity: 1;
+    transform: translateY(0);
+    -moz-transform: translateY(0);
+    -webkit-transform: translateY(0);
   }
 }
