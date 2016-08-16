@@ -708,7 +708,7 @@ a.button.default {
 /*HORIZONTAL*/
 @media all and (min-aspect-ratio: 1/1) {
   .home .screen {
-    height: calc(100vh - 450px);
+    height: calc(100vh - 475px);
   }
 }
 
