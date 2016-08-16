@@ -70,123 +70,109 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
     </div>
 
-    <section class="row">
-      <div class="col-sm-12" id="features">
-        <div class="features">
-          <h1>A PARADIGM SHIFT</h1>
-          <h2>IMMUTABLE AUDIT TRAILS + SMART POLICIES</h2>
-
-          <div class="container">
-            <div class="row">
-              <div class="col-sm-6">
-                <div class="box-img"><img src="img/screen-events.png" /></div>
-              </div>
-              <div class="col-sm-6">
-                <h1>Monitor all changes in your critical files and logs</h1>
-                <p>Discover and analyze potentially unwanted modifications of your digital assets. Trailbot securely records all changes made to your data and reports it back to you in real time in an easy to read format. Rest assured that your data was not tampered with and get tamper-proof audit trails that not even the system administrator can modify, damage or destroy.</p>
-                 <button type="button" class="btn btn-default">Get started <i class="fa fa-angle-right"></i></button>
-              </div>
-            </div>
-          </div>
-
-              <div style="width:100%; height: 1px; background: #e8e8e8; margin-top: 60px;margin-bottom: 60px;"></div>
-
-          <div class="container">
-            <div class="row">
-
-              <div class="col-sm-6 col-sm-push-6">
-                <div class="box-img"></div>
-              </div>
-
-              <div class="col-sm-6 col-sm-pull-6">
-                <h1>React to potentially unwanted modifications of your data</h1>
-                <p>Leverage the power of <a href="#policies">Trailbot Smart Policies</a> to control what happens when unwanted or unexpected events occur in your system. We have published some generic policies that will cover common monitoring needs, but you can also reuse and fork community-developed policies or even create your own!</p>
-                 <button type="button" class="btn btn-default">Get started <i class="fa fa-angle-right"></i></button>
-              </div>
-
-            </div>
-          </div>
-        </div>
-      </section>
-      <section id="policies">
-        <header>
-          <h2>Trailbot Smart Policies</h2>
-          <h3>You are now in control.</h3>
-        </header>
-        <div class="container">
-          <a href="https://github.com/trailbot/rollback-policy" class="policy">
-            <figure class="icon">
-              <img src="img/rotate.svg" />
-            </figure>
-            <img src="img/arrow.svg" class="arrow"/>
-            <header>
-              <h4>Rollback</h4>
-            </header>
-            <p>Roll modified files back to a clean state. Make your data imposible to manipulate, distort or tamper with.</p>
-          </a>
-          <a href="https://github.com/trailbot/backup-policy" class="policy">
-            <figure class="icon">
-              <img src="img/cloner.svg" />
-            </figure>
-            <img src="img/arrow.svg" class="arrow"/>
-            <header>
-              <h4>Backup</h4>
-            </header>
-            <p>Keep an incremental backup of all your important data, perfectly updated up-to-the-second.</p>
-          </a>
-          <a href="https://github.com/trailbot/stamper-policy" class="policy">
-            <figure class="icon">
-              <img src="img/stamper.svg" />
-            </figure>
-            <img src="img/arrow.svg" class="arrow"/>
-            <header>
-              <h4>Stamper</h4>
-            </header>
-            <p>Keep an incremental backup of all your important data, perfectly updated up-to-the-second.</p>
-          </a>
-          <a href="https://github.com/trailbot/zapier-policy" class="policy">
-            <figure class="icon">
-              <img src="img/Zapier.png" />
-            </figure>
-            <img src="img/arrow.svg" class="arrow"/>
-            <header>
-              <h4>Zapier</h4>
-            </header>
-            <p>Seamlessly connect your security events to a whole world of apps: Slack, Trello, Dropbox, Twitter, Twilio...</p>
-          </a>
-          <a href="https://github.com/trailbot/mailer-policy" class="policy">
-            <figure class="icon">
-              <img src="img/email.svg" />
-            </figure>
-            <img src="img/arrow.svg" class="arrow"/>
-            <header>
-              <h4>Mailer</h4>
-            </header>
-            <p>Receive an email with an easy to read diff report every time your monitored files are modified.</p>
-          </a>
-          <a href="https://github.com/trailbot/shutdown-policy" class="policy">
-            <figure class="icon">
-              <img src="img/Shutdown.svg" />
-            </figure>
-            <img src="img/arrow.svg" class="arrow"/>
-            <header>
-              <h4>Shutdown</h4>
-            </header>
-            <p>Shut the whole system down. Because worst-case scenarios exist and some times there is nothing you can do.</p>
-          </a>
-          <a href="https://github.com/trailbot/client/wiki/Smart-Policies" class="double policy">
-            <figure class="icon">
-              <img src="img/custom_policies.svg" />
-            </figure>
-            <img src="img/arrow.svg" class="arrow"/>
-            <header>
-              <h4>Your custom Smart Policy</h4>
-            </header>
-            <p>You can also create, share and fork your own custom policies. Because in cyberscurity there is no such thing as one-size-fits-all.</p>
-            <button class="default">Learn how</button>
-          </a>
-        </div>
-      </section>
+    <section id="features">
+<!--      <header>-->
+<!--        <h1>A PARADIGM SHIFT</h1>-->
+<!--        <h2>IMMUTABLE AUDIT TRAILS + SMART POLICIES</h2>-->
+<!--      </header>-->
+      <div class="container">
+        <article class="feature">
+          <img src="img/screen-events.png" />
+          <header>
+            <h1>Monitor all changes in your critical files and logs</h1>
+          </header>
+          <p>Discover and analyze potentially unwanted modifications of your digital assets. Trailbot securely records all changes made to your data and reports it back to you in real time in an easy to read format. Rest assured that your data was not tampered with and get tamper-proof audit trails that not even the system administrator can modify, damage or destroy.</p>
+          <p><a href="//github.com/trailbot/client" target="_blank" class="button default">Get started <i class="fa fa-angle-right"></i></a></p>
+        </article>
+        <article class="feature">
+          <img src="img/screen-events.png" />
+          <header>
+            <h1>React to potentially unwanted modifications of your data</h1>
+          </header>
+          <p>Leverage the power of <a href="#policies">Trailbot Smart Policies</a> to control what happens when unwanted or unexpected events occur in your system. We have published some generic policies that will cover common monitoring needs, but you can also reuse and fork community-developed policies or even create your own!</p>
+          <p><a href="//github.com/trailbot/client" target="_blank" class="button default">Get started <i class="fa fa-angle-right"></i></a></p>
+        </article>
+      </div>
+    </section>
+    <section id="policies">
+      <header>
+        <h2>Trailbot Smart Policies</h2>
+        <h3>You are now in control.</h3>
+      </header>
+      <div class="container">
+        <a href="https://github.com/trailbot/rollback-policy" class="policy">
+          <figure class="icon">
+            <img src="img/rotate.svg" />
+          </figure>
+          <img src="img/arrow.svg" class="arrow"/>
+          <header>
+            <h4>Rollback</h4>
+          </header>
+          <p>Roll modified files back to a clean state. Make your data imposible to manipulate, distort or tamper with.</p>
+        </a>
+        <a href="https://github.com/trailbot/backup-policy" class="policy">
+          <figure class="icon">
+            <img src="img/cloner.svg" />
+          </figure>
+          <img src="img/arrow.svg" class="arrow"/>
+          <header>
+            <h4>Backup</h4>
+          </header>
+          <p>Keep an incremental backup of all your important data, perfectly updated up-to-the-second.</p>
+        </a>
+        <a href="https://github.com/trailbot/stamper-policy" class="policy">
+          <figure class="icon">
+            <img src="img/stamper.svg" />
+          </figure>
+          <img src="img/arrow.svg" class="arrow"/>
+          <header>
+            <h4>Stamper</h4>
+          </header>
+          <p>Keep an incremental backup of all your important data, perfectly updated up-to-the-second.</p>
+        </a>
+        <a href="https://github.com/trailbot/zapier-policy" class="policy">
+          <figure class="icon">
+            <img src="img/Zapier.png" />
+          </figure>
+          <img src="img/arrow.svg" class="arrow"/>
+          <header>
+            <h4>Zapier</h4>
+          </header>
+          <p>Seamlessly connect your security events to a whole world of apps: Slack, Trello, Dropbox, Twitter, Twilio...</p>
+        </a>
+        <a href="https://github.com/trailbot/mailer-policy" class="policy">
+          <figure class="icon">
+            <img src="img/email.svg" />
+          </figure>
+          <img src="img/arrow.svg" class="arrow"/>
+          <header>
+            <h4>Mailer</h4>
+          </header>
+          <p>Receive an email with an easy to read diff report every time your monitored files are modified.</p>
+        </a>
+        <a href="https://github.com/trailbot/shutdown-policy" class="policy">
+          <figure class="icon">
+            <img src="img/Shutdown.svg" />
+          </figure>
+          <img src="img/arrow.svg" class="arrow"/>
+          <header>
+            <h4>Shutdown</h4>
+          </header>
+          <p>Shut the whole system down. Because worst-case scenarios exist and some times there is nothing you can do.</p>
+        </a>
+        <a href="https://github.com/trailbot/client/wiki/Smart-Policies" class="double policy">
+          <figure class="icon">
+            <img src="img/custom_policies.svg" />
+          </figure>
+          <img src="img/arrow.svg" class="arrow"/>
+          <header>
+            <h4>Your custom Smart Policy</h4>
+          </header>
+          <p>You can also create, share and fork your own custom policies. Because in cyberscurity there is no such thing as one-size-fits-all.</p>
+          <button class="default">Learn how</button>
+        </a>
+      </div>
+    </section>
     <section class="row">
       <div class="col-sm-12">
         <div class="footer">
