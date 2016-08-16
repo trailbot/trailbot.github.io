@@ -143,8 +143,8 @@ a.button.default {
 }
 
 .container-fluid {
-  padding-right: 60px !important;
-  padding-left: 60px !important;
+  padding-right: 0 !important;
+  padding-left: 0 !important;
   margin-right: auto;
   margin-left: auto;
   max-width: 87vw;
@@ -466,11 +466,10 @@ a.button.default {
   padding: 0px !important;
   }
 
-  .container-fluid {
-  padding-right: 15px !important;
-  padding-left: 15px !important;
-  margin-right: auto;
-  margin-left: auto;
+  .container {
+    padding: 0!important;
+    margin-right: auto;
+    margin-left: auto;
   }
 
   .navbar-brand {
@@ -494,6 +493,10 @@ a.button.default {
   }
 
   /**/
+
+  .footer {
+    padding: 0 80px;
+  }
 
   .footer .col-sm-6 p {
   font-family: AvenirNextLTPro-Regular;
@@ -555,8 +558,7 @@ a.button.default {
   }
 
   .footer .container {
-    padding-left: 70px;
-    padding-right: 70px;
+    padding: 0 60px;
   }
 
 }
