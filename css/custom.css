@@ -184,14 +184,22 @@ a.button.default {
 @keyframes pop {
   0% {
     opacity: 0;
+    -moz-opacity: 0;
+    -khtml-opacity: 0;
     transform: translateY(100px);
+    -moz-transform: translateY(100px);
+    -webkit-transform: translateY(100px);
   }
   50% {
     opacity: 0;
   }
   100% {
     opacity: 1;
+    -moz-opacity: 1;
+    -khtml-opacity: 1;
     transform: translateY(0);
+    -moz-transform: translateY(0);
+    -webkit-transform: translateY(0);
   }
 }
 
