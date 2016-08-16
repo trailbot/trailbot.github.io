@@ -670,6 +670,11 @@ button.default {
     margin-top: 0px;
   }
 
+  .footer .container {
+    padding-left: 70px;
+    padding-right: 70px;
+  }
+
 }
 
 @media all and (max-width: 769px) and (min-width: 760px) {
