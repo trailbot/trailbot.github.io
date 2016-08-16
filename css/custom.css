@@ -876,13 +876,17 @@ button.default {
     border-color: #DDD!important;
   }
 
+  #policies .policy p {
+    min-height: auto;
+  }
+
   #policies .policy.double {
     padding-right: 60px;
   }
 
   #policies .policy.double button {
     position: static;
-    margin: 10px 0 0 0;
+    margin: 20px 0 0 0;
   }
 
 }
