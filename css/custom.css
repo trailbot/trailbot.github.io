@@ -140,10 +140,10 @@ a:hover {
 }
 
 .home p {
-  width: 700px;
+  width: 90%;
   margin: auto;
   font-family: AvenirNextLTPro-Regular;
-  font-size: 24px;
+  font-size: 30px;
   text-align: center;
   color: rgba(255, 255, 255, 0.71);
 }
@@ -522,6 +522,7 @@ a:hover {
 }
 
 @media all and (max-width: 900px) and (min-width: 767px) {
+
   .box-policies .col-sm-6 h1 {
   text-align: left !important;
   }
@@ -577,8 +578,9 @@ a:hover {
   }
 
   .home p {
-  width: 300px;
   font-size: 18px;
+  width: 90%;
+  margin: auto;
   }
 
   /**/
@@ -701,8 +703,19 @@ a:hover {
 
   .box-policies .col-sm-3 {
     width: 100%;
-  padding-right: 0px;
-  text-align: center;
+    padding-right: 0px;
+    text-align: center;
+    padding-top: 20px;
+    padding-left: 0px;
+  }
+
+  .col-lg-12 {
+    padding-right: 0px !important;
+    padding-left: 0px !important;
+  }
+
+  .policies .custom {
+    width: 300px !important;
   }
 
   .box-policies .col-sm-6 h1 {
@@ -886,19 +899,52 @@ a:hover {
   font-family: AvenirNextLTPro-Regular;
   }
 
+  .footer .btn-default {
+    margin-bottom: 50px;
+  }
+
   .footer ul .title {
   font-family: AvenirNextLTPro-Demi;
   letter-spacing: 4px;
   font-size: 18px;
-  padding-top: 100px;
+  padding-top: 10px;
   }
 
   .footer .separator {
-  margin-top: 100px !important;
-  }
+  margin-top: 10px !important;
   }
 
+  .footer ul .title {
+    margin-top: 0px;
+  }
 
+}
+
+@media all and (max-width: 769px) and (min-width: 760px) {
+  
+  .features h1 {
+    top: 100px;
+    font-size: 66px;
+  }
+
+  .features h2 {
+    top: 38px;
+    padding-bottom: 80px;
+  }
+
+  .policies h3 {
+    font-size: 24px;
+  }
+
+  .box-policies {
+    height: 300px;
+  }
+
+  .box-policies .col-sm-8 p {
+    text-align: center;
+  }
+
+}
 
 
 @media all and (max-width: 1163px) and (min-width: 877px) {
@@ -945,14 +991,41 @@ a:hover {
   }
   }
 
-@media all and (max-width: 1024px) and (min-width: 1022px) {
+@media all and (max-width: 1025px) and (min-width: 1022px) {
 
+
+  .features h2{
+    top: -200px;
+  }
   .features .col-sm-6 .box-img {
   width: 250px;
   height: 300px;
   background-color: #ddd;
   margin-left: 50px;
   }
+
+  .features .col-sm-6 .box-img {
+    width: 350px;
+    height: 350px;
+    background-color: #ddd;
+    margin-left: 25px;
+  }
+
+    .features .col-sm-6 .box-img img {
+      width: 350px;
+      height: 350px;
+    }
+
+    .features .col-sm-6 h1 {
+      margin-top: 0px;
+      padding-top: 0px;
+    }
+
+    .features .col-sm-6 p {
+      margin-top: 0px;
+      padding-top: 50px;
+      width: 90%;
+    }
 }
 
 @media all and (max-width: 876px) and (min-width: 768px) {
@@ -1001,7 +1074,7 @@ a:hover {
 
 
 
-@media all and (max-width: 1165px) and (min-width: 1100px) {
+@media all and (max-width: 1410px) and (min-width: 1100px) {
   .home .img-align {
   display: none ;
   }
@@ -1011,20 +1084,32 @@ a:hover {
 @media all and (max-width: 1281px) and (min-width: 1279px) {
 
 .home .img-align {
-  display: none ;
+  overflow: hidden;
+  display: block;
+  position: absolute;
+    text-align: center;
+    bottom: 0;
+    left: 0;
+    right: 0;
+
+}
+
+.home .img-align img {
+  width: 700px;
+  position: absolute;
+    bottom: -20px;
+    left: 20%;
   }
-  }
+}
   
 .home h1 {
-  font-family: AvenirNextLTPro-Demi;
-  font-size: 28px;
   text-align: center;
   color: rgba(255, 255, 255, 0.91);
   padding-top: 15px;
 }
 
 .home p {
-  width: 700px;
+  width: 90%;
   margin: auto;
   font-family: AvenirNextLTPro-Regular;
   font-size: 17px;
