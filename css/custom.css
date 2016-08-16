@@ -11,23 +11,6 @@
 Custom Rules
 */
 
-.row {
-  margin: 0px !important;
-}
-
-.col-sm-12 {
-  padding: 0px !important
-}
-
-html,body {
-  height: 100%;
-}
-
-a:hover {
-  text-decoration: none !important;
-}
-
-
 @font-face {
   font-family: 'AvenirNextLTPro-Bold';
   src: url('../fonts/AvenirNextLTPro-Bold.otf');
@@ -48,7 +31,43 @@ a:hover {
   src: url('../fonts/AvenirNextLTPro-Regular.otf');
 }
 
+.row {
+  margin: 0px !important;
+}
+
+.col-sm-12 {
+  padding: 0px !important
+}
+
+html,body {
+  height: 100%;
+}
+
+body {
+  font-family: AvenirNextLTPro-Regular!important;
+}
+
+a:hover {
+  text-decoration: none !important;
+}
+
+header {
+  font-family: AvenirNextLTPro-Demi;
+}
+
 /**/
+
+button.default {
+  display: block;
+  width: auto;
+  padding: 11px 30px 10px 30px;
+  background: #F37E83;
+  border-radius: 50px;
+  border: none;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
 
 .btn-default {
   color: #fff;
@@ -280,64 +299,6 @@ a:hover {
   padding-top: 0px !important;
 }
 
-.policies {
-  border-top: 1px solid #e8e8e8;
-  padding-bottom: 50px;
-}
-
-.policies h2,
-.policies h3 {
-  margin-top: 0;
-  text-align: center;
-}
-
-.policies h2 {
-  font-family: AvenirNextLTPro-Bold;
-}
-
-.policies h3 {
-  font-family: AvenirNextLTPro-Demi;
-  margin-bottom: 30px;
-  font-size: 1.4em;
-  color: #666;
-}
-
-.box-policies{
-  box-shadow: 0px 2px 40px 0px rgba(0,0,0,0.08);
-  transition: 0.1s;
-  -mz-transition: 0.1s;
-  -webkit-transition: 0.1s;
-  -o-transition: 0.1s;
-}
-
-.box-policies {
-  width: 100%;
-  height: 175px;
-  margin: auto;
-  border-radius: 3.5px;
-  background-color: #fff;
-  border: solid 0.5px rgba(51, 73, 94, 0.26);
-  margin-top: 12px;
-  cursor: pointer;
-}
-
-.box-policies .col-sm-3 {
-  width: 100px;
-  padding-top: 50px;
-  padding-right: 0px;
-  text-align: center;
-}
-
-.box-policies h1 {
-  font-family: AvenirNextLTPro-Demi;
-  font-size: 20px;
-  font-weight: normal;
-  color: #616161;
-  padding: 0px;
-  top: 35px;
-  text-align: left;
-}
-
 .features .ctatext {
   width: 540.86px;
   height: auto;
@@ -373,70 +334,84 @@ a:hover {
   cursor: pointer;
 }
 
-.box-policies .col-sm-8 p {
-  font-family: AvenirNextLTPro-Regular;
-  font-size: 14px;
-  font-weight: normal;
-  margin-top: 10px;
-  top: 0px;
-  text-align: left;
-  color: #888888;
-  line-height: 20px;
-  width: 100%;
+/**/
+
+#policies {
+  padding: 80px 0;
+  border-top: 1px solid #EEE;
 }
 
-.box-policies .col-sm-1 {
-  float: right;
-  margin-top: 75px;
-  margin-right: 10px;
-}
-
-.features .col-lg-12 {
+#policies > header {
   text-align: center;
-  padding-right: 10px;
-  padding-left: 10px;
+  margin-bottom: 50px;
 }
 
-.box-policies h1 {
-  font-family: AvenirNextLTPro-Demi;
-  font-size: 20px !important;
-  font-weight: normal;
-  color: #616161;
-  padding: 0px;
-  text-align: left;
-  margin-top: 40px !important;
-  margin-bottom: 0px;
+#policies > header h2 {
+  color: #555;
 }
 
-.box-policies p {
-  font-family: AvenirNextLTPro-Regular;
-  font-size: 16px!important;
-  font-weight: normal;
-  padding-top: 2px;
-  top: 0px;
-  text-align: left;
-  color: #888888;
-  line-height: 20px;
-  width: 100%;
-  }
+#policies > header h3 {
+  margin-top: 0;
+  color: #999;
+}
 
-.box-policies .btn-default {
-  color: #fff;
-  border: none;
-  width: auto;
-  height: 44px;
-  border-radius: 50px;
-  background-color: #f37e83;
-  padding-right: 30px;
-  padding-left: 30px;
+#policies .policy {
+  position: relative;
   display: block;
-  margin-top: -10px;
-  cursor: pointer;
+  float: left;
+  width: calc(50% - 10px);
+  padding: 35px 60px 35px 90px;
+  margin: 6px 5px;
+  border-radius: 4px;
+  border: 1px solid #DDD;
+  font-size: 1.2em;
+  transition: all .2s ease;
 }
 
-.box-policies.custom {
-  height: 130px;
+#policies .policy.double {
+  width: calc(100% - 10px);
+  padding-right: 400px;
 }
+
+#policies .policy:hover {
+  border-color: rgba(51, 122, 183, .4);
+  box-shadow: 0 0 20px rgba(51, 122, 183, .4);
+}
+
+#policies .policy header {
+  text-align: left;
+  color: #777;
+}
+
+#policies .policy .icon {
+  position: absolute;
+  top: 50px;
+  left: 15px;
+  text-align: center;
+  width: 60px;
+}
+
+#policies .policy .arrow {
+  position: absolute;
+  top: 50%;
+  margin-top: -12px;
+  right: 25px;
+}
+
+#policies .policy p {
+  display: inline-block;
+  min-height: 4.5em;
+  margin: 0;
+  color: #999;
+}
+
+#policies .policy.double button {
+  position: absolute;
+  right: 100px;
+  top: 50%;
+  margin-top: -24px;
+}
+
 
 /**/
 
@@ -522,14 +497,6 @@ a:hover {
 }
 
 @media all and (max-width: 900px) and (min-width: 767px) {
-
-  .box-policies .col-sm-6 h1 {
-  text-align: left !important;
-  }
-
-  .box-policies .col-sm-6 p {
-  text-align: left !important;
-  }
 
   .ribbon {
   width: 100%;
@@ -636,222 +603,7 @@ a:hover {
   margin-top: 0px;
   }
 
-
-  .policies h3 {
-  margin-bottom: 90px;
-  font-size: 12px;
-  width: 300px;
-  margin: auto;
-  }
-
-
-  .box-policies .col-sm-7 h1 {
-  font-family: AvenirNextLTPro-Demi;
-  font-size: 20px;
-  font-weight: normal;
-  text-align: justify;
-  color: #616161;
-  padding: 0px;
-  top: 27px;
-  text-align: center;
-  }
-
-  .box-policies .col-sm-7 p {
-  font-family: AvenirNextLTPro-Regular;
-  font-size: 14px;
-  font-weight: normal;
-  padding-top: 17px;
-  top: 0px;
-  text-align: center;
-  color: #888888;
-  }
-
-  .box-policies {
-  width: 300px;
-  height: 260px;
-  border-radius: 3.5px;
-  background-color: #fff;
-  border: solid 0.5px rgba(51, 73, 94, 0.26);
-  margin-top: 12px;
-  }
-
-.box-policies .col-sm-1 {
-  display: none;
-}
-
-.features .col-sm-6 .btn-default {
-  margin-bottom: 30px;
-}
-
-
-  .box-policies .col-sm-8 p  {
-    text-align: center;
-    padding-top: 10px;
-  }
-
-  .features .col-lg-6 .box-policies img {
-  padding-top: 30px;
-  }
-
-  .features .col-lg-6 .box-policies .arrow {
-  display: none;
-  }
-
   /**/
-
-  
-
-  .box-policies .col-sm-3 {
-    width: 100%;
-    padding-right: 0px;
-    text-align: center;
-    padding-top: 20px;
-    padding-left: 0px;
-  }
-
-  .col-lg-12 {
-    padding-right: 0px !important;
-    padding-left: 0px !important;
-  }
-
-  .policies .custom {
-    width: 300px !important;
-  }
-
-  .box-policies .col-sm-6 h1 {
-  font-family: AvenirNextLTPro-Demi;
-  font-size: 20px;
-  font-weight: normal;
-  color: #616161;
-  padding: 0px;
-  top: 28px;
-  text-align: center;
-  }
-
-  .box-policies .col-sm-6 p {
-  font-family: AvenirNextLTPro-Regular;
-  font-size: 14px;
-  font-weight: normal;
-  padding-top: 26px;
-  top: 0px;
-  text-align: center;
-  }
-
-  .ribbon {
-  width: 70%;
-  height: auto;
-  background: #f37e83;
-  color: #fff;
-  text-transform: uppercase;
-  letter-spacing: 2px;
-  font-size: 14px;
-  padding: 0px;
-  padding-top: 5px;
-  padding-bottom: 5px;
-  margin-top: 2px;
-  border-radius: 30px;
-  right: 0px;
-  margin: auto;
-  }
-
-  .policies .bg-color .container-fluid {
-  padding-right: 10px !important;
-  padding-left: 10px !important;
-  margin-right: auto;
-  margin-left: auto;
-  }
-
-
-  /**/
-
-.policies .ctatext {
-  width: auto;
-  height: auto;
-  margin: auto;
-  margin-top: 44px;
-  }
-
-.policies .ctatext h2 {
-  font-family: AvenirNextLTPro-Bold;
-  font-size: 17px;
-  font-weight: normal;
-  color: #616161;
-  padding: 0px;
-  top: 44px;
-  width: 100%;
-  text-align: center;
-  line-height: 28px;
-  }
-
-.policies .ctatext .btn-default {
-  color: #fff;
-  border: none;
-  width: auto;
-  height: 44px;
-  border-radius: 50px;
-  background-color: #f37e83;
-  padding-right: 30px;
-  padding-left: 30px;
-  display: inline;
-  margin-left: 0px !important;
-  }
-
-  .policies .col-lg-12 .box-policies {
-  width: 98.35%;
-  height: 330px;
-  margin: auto;
-  border-radius: 3.5px;
-  background-color: #fff;
-  border: solid 0.5px rgba(51, 73, 94, 0.26);
-  margin-top: 12px;
-  cursor: pointer;
-  }
-
-  .box-policies h1 {
-  font-family: AvenirNextLTPro-Demi;
-  font-size: 20px !important;
-  font-weight: normal;
-  color: #616161;
-  padding: 0px;
-  text-align: center;
-  margin-bottom: 20px;
-  }
-
-
-  .box-policies p {
-  font-family: AvenirNextLTPro-Regular;
-  font-size: 14px;
-  font-weight: normal;
-  padding-top: 30px;
-  top: 0px;
-  text-align: center;
-  color: #888888;
-  line-height: 20px;
-  width: 100%;
-  }
-
-  .box-policies .btn-default {
-  color: #fff;
-  border: none;
-  width: auto;
-  height: 44px;
-  border-radius: 50px;
-  background-color: #f37e83;
-  padding-right: 30px;
-  padding-left: 30px;
-  display: inline;
-  margin-top: 15px;
-  margin-left: 0px !important;
-  cursor: pointer;
-  }
-
-  .policies .col-lg-12 .box-policies img {
-  margin-top: 6px;
-  }
-
-  .policies .col-lg-12 .box-policies img {
-  padding-top: 0px;
-  }
 
   .custom  .btn-default {
     margin-top: 0px;
@@ -921,7 +673,7 @@ a:hover {
 }
 
 @media all and (max-width: 769px) and (min-width: 760px) {
-  
+
   .features h1 {
     top: 100px;
     font-size: 66px;
@@ -930,18 +682,6 @@ a:hover {
   .features h2 {
     top: 38px;
     padding-bottom: 80px;
-  }
-
-  .policies h3 {
-    font-size: 24px;
-  }
-
-  .box-policies {
-    height: 300px;
-  }
-
-  .box-policies .col-sm-8 p {
-    text-align: center;
   }
 
 }
@@ -1030,10 +770,6 @@ a:hover {
 
 @media all and (max-width: 876px) and (min-width: 768px) {
 
-  .features .col-lg-6 .box-policies {
-  width: 430px;
-  }
-
   .footer img {
   margin-top: 40px;
   }
@@ -1083,37 +819,70 @@ a:hover {
 
 @media all and (max-width: 1281px) and (min-width: 1279px) {
 
-.home .img-align {
-  overflow: hidden;
-  display: block;
-  position: absolute;
-    text-align: center;
-    bottom: 0;
-    left: 0;
-    right: 0;
+  .home .img-align {
+    overflow: hidden;
+    display: block;
+    position: absolute;
+      text-align: center;
+      bottom: 0;
+      left: 0;
+      right: 0;
 
-}
+  }
 
-.home .img-align img {
-  width: 700px;
-  position: absolute;
+  .home .img-align img {
+    width: 700px;
+    position: absolute;
     bottom: -20px;
     left: 20%;
   }
-}
-  
-.home h1 {
-  text-align: center;
-  color: rgba(255, 255, 255, 0.91);
-  padding-top: 15px;
+
+  .home h1 {
+    text-align: center;
+    color: rgba(255, 255, 255, 0.91);
+    padding-top: 15px;
+  }
+
+  .home p {
+    width: 90%;
+    margin: auto;
+    font-family: AvenirNextLTPro-Regular;
+    font-size: 17px;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.71);
+  }
+
 }
 
-.home p {
-  width: 90%;
-  margin: auto;
-  font-family: AvenirNextLTPro-Regular;
-  font-size: 17px;
-  text-align: center;
-  color: rgba(255, 255, 255, 0.71);
-}
+
+/**/
+
+@media all and (max-width: 992px) {
+
+  #policies .policy {
+   margin: 0;
+   width: 100%!important;
+   border: 0;
+   border-bottom: 1px solid #DDD;
+   border-radius: 0;
+  }
+
+  #policies .policy:last-child {
+    border: none;
+  }
+
+  #policies .policy:hover {
+    box-shadow: none;
+    border-color: #DDD!important;
+  }
+
+  #policies .policy.double {
+    padding-right: 60px;
+  }
+
+  #policies .policy.double button {
+    position: static;
+    margin: 10px 0 0 0;
+  }
+
 }
