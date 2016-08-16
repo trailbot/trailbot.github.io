@@ -160,20 +160,24 @@ a.button.default {
 }
 
 .home p {
-  width: 90%;
+  width: 800px;
   margin: auto;
   font-family: AvenirNextLTPro-Regular;
-  font-size: 35px;
+  font-size: 24px;
   text-align: center;
   color: rgba(255, 255, 255, 0.71);
 }
 
-.home .img-align {
-  display: block;
-  height: 418px;
+.home .screen {
+  display: inline-block;
   position: absolute;
   text-align: center;
   bottom: 0; left: 0; right: 0;
+  overflow: hidden;
+}
+
+.home .screen img {
+  height: 100%;
 }
 
 .home .btn-default {
@@ -452,10 +456,6 @@ a.button.default {
 }
 
 @media all and (max-width: 876px) and (min-width: 300px) {
-  .home .img-align {
-  display: none;
-  }
-
   .col-lg-6 {
   padding: 0px !important;
   }
@@ -476,14 +476,15 @@ a.button.default {
   }
 
   .home h1 {
-  padding-top: 50px;
-  font-size: 22px;
+    font-size: 32px;
+    padding: 0 20px;
   }
 
   .home p {
-  font-size: 18px;
-  width: 90%;
-  margin: auto;
+    font-size: 20px;
+    width: 90%;
+    margin: auto;
+    padding: 0 20px;
   }
 
   /**/
@@ -554,17 +555,6 @@ a.button.default {
 
 }
 
-@media all and (max-width: 1163px) and (min-width: 877px) {
-  .home .img-align {
-    display: block;
-    height: 418px;
-    position: absolute;
-    text-align: center;
-    bottom: 0; left: 0; right: 0;
-    display: none;
-  }
-}
-
 @media all and (max-width: 876px) and (min-width: 768px) {
 
   .footer img {
@@ -604,53 +594,6 @@ a.button.default {
   display: none;
   }
 }
-
-
-
-@media all and (max-width: 1410px) and (min-width: 1100px) {
-  .home .img-align {
-  display: none ;
-  }
-  }
-
-
-@media all and (max-width: 1281px) and (min-width: 1279px) {
-
-  .home .img-align {
-    overflow: hidden;
-    display: block;
-    position: absolute;
-      text-align: center;
-      bottom: 0;
-      left: 0;
-      right: 0;
-
-  }
-
-  .home .img-align img {
-    width: 700px;
-    position: absolute;
-    bottom: -20px;
-    left: 20%;
-  }
-
-  .home h1 {
-    text-align: center;
-    color: rgba(255, 255, 255, 0.91);
-    padding-top: 15px;
-  }
-
-  .home p {
-    width: 90%;
-    margin: auto;
-    font-family: AvenirNextLTPro-Regular;
-    font-size: 17px;
-    text-align: center;
-    color: rgba(255, 255, 255, 0.71);
-  }
-
-}
-
 
 /**/
 
@@ -723,3 +666,18 @@ a.button.default {
   }
 
 }
+
+/*VERTICAL*/
+@media all and (max-aspect-ratio: 1/1) {
+  .home .screen img {
+    width: calc(100vw - 100px);
+  }
+}
+
+/*HORIZONTAL*/
+@media all and (min-aspect-ratio: 1/1) {
+  .home .screen {
+    height: calc(100vh - 450px);
+  }
+}
+
