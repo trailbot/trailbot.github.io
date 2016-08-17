@@ -487,7 +487,8 @@ footer .powered {
 
 @media all and (max-width: 992px) {
 
-  #features .container {
+  #features .container,
+  #policies .container {
     padding-left: 0!important;
     padding-right: 0!important;
   }
