@@ -293,13 +293,13 @@ a.button.default {
 /**/
 
 #policies {
-  padding: 80px 0;
+  padding: 50px 0;
   border-top: 1px solid #EEE;
 }
 
 #policies > header {
   text-align: center;
-  margin: -30px 0 50px 0;
+  margin: 0 0 50px 0;
 }
 
 #policies > header h2 {
@@ -368,6 +368,39 @@ a.button.default {
   margin-top: -24px;
 }
 
+
+/**/
+
+#zapier {
+  padding: 50px 0 100px 0;
+  border-top: 1px solid #EEE;
+  text-align: center;
+}
+
+#zapier header {
+  margin: 0 0 50px 0;
+}
+
+#zapier header h2 {
+  color: #555;
+}
+
+#zapier header h3 {
+  display: inline-block;
+  margin-top: 5px;
+  padding: 0 20px;
+  font-family: 'AvenirNextLTPro-Regular';
+  font-size: 1.4em;
+  line-height: 1.8em;
+  color: #999;
+  width: 750px;
+  max-width: 100%;
+}
+
+#zapier img {
+  max-width: 100%;
+  padding: 0 30px;
+}
 
 /**/
 
