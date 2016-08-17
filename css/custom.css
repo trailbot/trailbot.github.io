@@ -428,6 +428,10 @@ footer nav ul li a {
   color: white;
 }
 
+footer nav ul li a:hover {
+  color: #fff;
+}
+
 footer .powered {
   width: 100%;
   padding-top: 30px;
