@@ -461,12 +461,12 @@ footer nav ul li a {
   color: white;
 }
 
-footer nav ul li a:hover {
+footer .container nav ul li a:hover {
   color: #fff;
 }
 
 
-footer nav ul li a:active , a:link {
+footer .container nav ul li a:active , a:link {
   color: #fff;
 }
 
