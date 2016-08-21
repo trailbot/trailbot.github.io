@@ -650,6 +650,10 @@ footer .powered {
 
 /*CLANKYPHONES*/
 @media all and (max-height: 700px) {
+  .home {
+    height: auto;
+    padding-bottom: 100px;
+  }
   .home .screen {
     display: none!important;
   }
